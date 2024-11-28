@@ -321,6 +321,6 @@
       <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtWire]" DisplayName="Save master Excel file" sap:VirtualizedContainerService.HintSize="502,148" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="WIRE" WorkbookPath="[MergeFilePath]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="502,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Merge excel file Completed. &quot;]" />
     </Sequence>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;If any issue, Feel free to connect - prashant1603765@gmail.com&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Feel free to connect me for any discussions&quot;]" />
   </Sequence>
 </Activity>
