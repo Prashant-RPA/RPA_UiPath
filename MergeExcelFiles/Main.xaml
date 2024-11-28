@@ -229,7 +229,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="To merge 10 Excel files into one Excel file.&#xA;&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1002,2631" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="To merge 10 Excel files into one Excel file.&#xA;&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1019,466.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="si:DirectoryInfo" Name="folderInfo" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtComponents" />
@@ -242,11 +242,11 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Merge &amp; Filter Datatble" sap:VirtualizedContainerService.HintSize="536,2551" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="Merge &amp; Filter Datatble" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="502,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Merge excel file started. &quot;]" />
@@ -321,5 +321,6 @@
       <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtWire]" DisplayName="Save master Excel file" sap:VirtualizedContainerService.HintSize="502,148" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="WIRE" WorkbookPath="[MergeFilePath]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="502,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Merge excel file Completed. &quot;]" />
     </Sequence>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;If any issue, Feel free to connect - prashant1603765@gmail.com&quot;]" />
   </Sequence>
 </Activity>
